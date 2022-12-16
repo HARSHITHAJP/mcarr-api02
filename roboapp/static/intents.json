@@ -1,0 +1,84 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "location",
+         "patterns": ["What is your location?", "Where are you located?", "What is your address?", "Where is christ situated?" ],
+         "responses": ["Dairy circle bangalore", "S G palya bangalore"]
+       },
+        {"tag": "mca", 
+         "patterns": ["What is mca", "details about mca", "may i know about mca", "tell me about mca","mca" ],
+         "responses": ["mca is Master fo computer applications program offered by the Christ deemed to be university. It is a professional course and is spread over a time of 2 years."]
+        },
+        {"tag": "mcalab",
+         "patterns": ["Where is mcalab", "details about mcalab", "may i know about mcalab", "tell me where is mcalab", "mcalab" ],
+         "responses": ["mca lab is in central blovk,8th floor, room number 811"]
+        },
+        {"tag": "mca1styear",
+         "patterns": ["mca1styear", "mca 1 year", "mca first year"],
+         "responses": ["MCA 1st year classroom is in central block 811 and 812"]
+        },
+        {"tag": "mca2ndyear",
+         "patterns": ["mca2ndyear", "mca 2 year", "mca second year"],
+         "responses": ["MCA second year classroom is in central block 808 and 809"]
+        },
+        {"tag": "library",
+         "patterns": ["where is library", "library", "knowledge center"],
+         "responses": ["library can be used for enhanced learning, knowledge center the main library is in central block 6th floor, UG library is next to 1st block"]
+        },
+        {"tag": "2ndyearmondaytimetable",
+         "patterns": ["2nd year mondays timetable", "second year mondays timetable", "what is mondays timetable"],
+         "responses": ["9-10 STDA NNDL SSIOT, 10-11 QML CV IOTDA, 11-1 STDA SSIOT NNDL LAB, 2-5 Specialization Project"]
+        },
+        {"tag": "2ndyeartuesdaytimetable",
+         "patterns": ["2nd year tuesdays timetable", "second year tuesday timetable", "what is tuesdays timetable"],
+         "responses": ["9-11 QML IOTDA and CC LAB Batch2, 11-12 CC,12-1 QML CV IOTDA, 2-4 CC lab batch2 and CV lab"]
+        },
+        {"tag": "2ndyearwednesdaytimetable",
+         "patterns": ["2nd year wednesdays timetable", "second year wednesday timetable", "what is wednesdays timetable"],
+         "responses": ["9-10 STDA NNDL SSIOT, 10-11 CC,12-1 STDA SSIOT NNDL LAB, 2-3 CC, 3-4 library"]
+        },
+        {"tag": "2ndyearthursdaytimetable",
+         "patterns": ["2nd year thursdays timetable", "second year thursday timetable", "what is thursdays timetable"],
+         "responses": ["9-11 QML IOTDA and CC LAB Batch2, 11-12 STDA SSIOT NNDL,12-1 QML IOTDA CV, 2-3 CC, 3-4 library"]
+        },
+        {"tag": "2ndyearfridaytimetable",
+         "patterns": ["2nd year fridays timetable", "second year friday timetable", "what is fridays timetable"],
+         "responses": ["9-11 CV and CC LAB Batch1, 11-12 QML IOTDA CV ,12-1 STDA SSIOT NNDL, 2-5 Specialization Project"]
+        },
+        {"tag": "2ndyearsaturdaytimetable",
+         "patterns": ["2nd year saturdays timetable", "second year saturday timetable", "what is saturdays timetable"],
+         "responses": ["9-10 QML IOTDA CV, 10-11 STDA SSIOT NNDL, 11-12 CC, 12-1 mentoring"]
+        },
+        {"tag": "upcomingevents",
+         "patterns": ["what are the upcoming events", "upcomingevents", "what are the latest events"],
+         "responses": ["LABRINYTH Club meeting ON 8th December 2022 2pm", "Professional ethics session ON 10th December 2022 11am"]
+        },
+        {"tag": "deepamam",
+         "patterns": ["tell me about deepa mam", "deepa mam", "may i know about deepa mam" ],
+         "responses": ["Dr deepa v jose is an assistant professor in computer science department. she has done MCA, MTech, MPhil, PhD"]
+        },
+        {"tag": "teachers",
+         "patterns": ["who are the teachers", "teachers", "may i know who are the faculty", "faculty" ],
+         "responses": ["Dr Deepa V Jose, Dr Chandra J, Dr senthilnathan, Dr Sagaya Aurelia, Dr Shoney Sebastian"]
+        },
+        {"tag": "course",
+         "patterns": ["what are the courses in computer science", "courses in computer science", "course"],
+         "responses": ["Undergraduate Programmes are BSc CME, BSc in CMS, BCA. Postgraduate Programmes MSc Cs, Msc CS and Applications, MCA. Research Programmes Phd."]
+       }
+     ]
+}
